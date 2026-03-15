@@ -1,4 +1,9 @@
 # CUSTOMER-SHOPPING-BEHAVIOUR-ANALYSIS
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-orange)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📌 Project Overview
 
