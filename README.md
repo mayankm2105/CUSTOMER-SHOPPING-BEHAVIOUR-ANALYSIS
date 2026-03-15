@@ -40,28 +40,6 @@ The project focuses on answering the following questions:
 
 ---
 
-# 📂 Project Structure
-customer-trends-data-analysis-SQL-Python-PowerBI
-│
-├── data
-│ └── customer_data.csv
-│
-├── sql_queries
-│ └── analysis_queries.sql
-│
-├── python_analysis
-│ └── customer_analysis.ipynb
-│
-├── powerbi_dashboard
-│ └── customer_dashboard.pbix
-│
-├── images
-│ └── dashboard_preview.png
-│
-└── README.md
-
----
-
 # 📊 Data Analysis Workflow
 
 The analysis follows a structured pipeline:
@@ -108,10 +86,69 @@ The Power BI dashboard includes:
 
 # 🚀 How to Run This Project
 
-Follow these steps to run the project locally.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/mayankm2105/CUSTOMER-SHOPPING-BEHAVIOUR-ANALYSIS
+   cd customer-trends-data-analysis-SQL-Python-PowerBI
+   ```
+2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
 
-## 1️⃣ Clone the Repository
+    This file contains:
 
-```bash
-git clone https://github.com/mayankm2105/CUSTOMER-SHOPPING-BEHAVIOUR-ANALYSIS
+      - Data Import
 
+      - Data exploration
+
+      - Data cleaning
+
+      - Connection to SQL Database
+  
+3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
+
+      - Create a database in SQL
+
+      - Run Python code to load data into SQL database
+  
+      - Open **customer_behavior_sql_queries.sql**
+  
+      - Answer Business Questions using SQL Queries 
+      
+4. **Connect the SQL Database to Power BI**
+
+      - Open **customer_behavior_dashboard.pbix**
+   
+      - Create interactive dashboard in Power BI
+  
+6. **Create Project Report and Presentation**
+
+      - Create project report
+   
+      - Build presentation deck using Gamma AI
+
+---
+## 📚 Learning Outcomes
+
+Through this project, the following skills and concepts were developed:
+
+- Data cleaning and preprocessing using **Python (Pandas, NumPy)**
+- Performing analytical queries using **SQL**
+- Creating data visualizations using **Power BI**
+- Understanding an **end-to-end data analytics workflow**
+- Converting raw data into **actionable business insights**
+- Integrating **SQL, Python, and BI tools** for real-world data analysis
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+You are free to:
+
+- Use  
+- Modify  
+- Distribute  
+
+this project with proper attribution.
+
+For more details, see the `LICENSE` file in this repository.
